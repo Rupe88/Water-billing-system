@@ -17,6 +17,8 @@ A comprehensive **Drinking Water Billing Management System** developed in **C pr
   - [💻 System Requirements](#-system-requirements)
   - [🚀 Installation \& Setup](#-installation--setup)
     - [1️⃣ Download or Clone](#1️⃣-download-or-clone)
+  - [ID    Name                 Address                  Phone](#id----name-----------------address------------------phone)
+  - [CID   Customer     Month  Year   Prev   Curr   Units   Amount](#cid---customer-----month--year---prev---curr---units---amount)
 
 ---
 
@@ -29,9 +31,9 @@ It provides a simple yet effective way to:
 - Track water consumption
 - Generate accurate bills
 
-**Developed by:** [Your Name]  
-**Course:** [Your Course Name]  
-**Institution:** [Your College Name]  
+**Developed by:** Rupesh Chaudhary  
+**Course:** C Programming 
+**Institution:** Itahari Namuna College 
 **Language:** C Programming  
 **Platform:** Cross-platform (Windows / Linux / macOS)
 
@@ -91,3 +93,76 @@ It provides a simple yet effective way to:
 ```bash
 git clone https://github.com/yourusername/water-billing-system.git
 ```
+
+WaterBillingSystem/
+├── src/
+│   └── main.c
+├── data/
+│   ├── customers.txt    # auto-created
+│   └── bills.txt        # auto-created
+├── docs/
+│   └── README.md
+├── bin/                 # compiled executables
+└── compile_and_run.bat
+
+
+cd WaterBillingSystem
+gcc src/main.c -o bin/water_billing.exe
+bin/water_billing.exe
+
+=== DRINKING WATER BILLING SYSTEM ===
+
+=== MAIN MENU ===
+1. Add New Customer
+2. View All Customers
+3. Generate Bill
+4. View Customer Bills
+5. Exit
+==================
+Enter your choice:
+
+=== ADD NEW CUSTOMER ===
+Customer ID: 1001 (Auto-generated)
+Enter Customer Name: John Smith
+Enter Address: 123 Main Street
+Enter Phone Number: +1-234-567-8900
+
+Customer added successfully!
+
+=== GENERATE BILL ===
+Enter Customer ID: 1001
+Customer: John Smith
+Enter Month (1-12): 12
+Enter Year: 2023
+Enter Previous Reading: 1500
+Enter Current Reading: 1750
+
+=== BILL GENERATED ===
+Units Consumed: 250
+Amount: Rs. 650.00
+
+| Units   | Rate (₹/Unit) |
+| ------- | ------------- |
+| 0–100   | ₹2.00         |
+| 101–300 | ₹3.00         |
+| 301+    | ₹5.00         |
+
+100 × 2  = ₹200
+200 × 3  = ₹600
+50  × 5  = ₹250
+Total = ₹1050
+
+
+ID    Name                 Address                  Phone
+-----------------------------------------------------------------
+1001  John Smith           123 Main Street          +1-234-567-8900
+1002  Jane Doe             456 Oak Avenue           +1-234-567-8901
+
+
+CID   Customer     Month  Year   Prev   Curr   Units   Amount
+--------------------------------------------------------------
+1001  John Smith   12     2023   1500   1750   250     Rs.650.00
+
+
+Copyright (c) 2024 [Your Name]
+Educational use only. All rights reserved.
