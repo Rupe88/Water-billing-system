@@ -17,8 +17,6 @@ A comprehensive **Drinking Water Billing Management System** developed in **C pr
   - [💻 System Requirements](#-system-requirements)
   - [🚀 Installation \& Setup](#-installation--setup)
     - [1️⃣ Download or Clone](#1️⃣-download-or-clone)
-  - [ID    Name                 Address                  Phone](#id----name-----------------address------------------phone)
-  - [CID   Customer     Month  Year   Prev   Curr   Units   Amount](#cid---customer-----month--year---prev---curr---units---amount)
 
 ---
 
@@ -32,8 +30,8 @@ It provides a simple yet effective way to:
 - Generate accurate bills
 
 **Developed by:** Rupesh Chaudhary  
-**Course:** C Programming 
-**Institution:** Itahari Namuna College 
+**Course:** C Programming
+**Institution:** Itahari Namuna College(INC)
 **Language:** C Programming  
 **Platform:** Cross-platform (Windows / Linux / macOS)
 
@@ -94,32 +92,16 @@ It provides a simple yet effective way to:
 git clone https://github.com/yourusername/water-billing-system.git
 ```
 
-WaterBillingSystem/
-├── src/
-│   └── main.c
-├── data/
-│   ├── customers.txt    # auto-created
-│   └── bills.txt        # auto-created
-├── docs/
-│   └── README.md
-├── bin/                 # compiled executables
-└── compile_and_run.bat
-
-
-cd WaterBillingSystem
-gcc src/main.c -o bin/water_billing.exe
-bin/water_billing.exe
-
 === DRINKING WATER BILLING SYSTEM ===
 
 === MAIN MENU ===
+
 1. Add New Customer
 2. View All Customers
 3. Generate Bill
 4. View Customer Bills
-5. Exit
-==================
-Enter your choice:
+5. # Exit
+   Enter your choice:
 
 === ADD NEW CUSTOMER ===
 Customer ID: 1001 (Auto-generated)
@@ -147,22 +129,6 @@ Amount: Rs. 650.00
 | 101–300 | ₹3.00         |
 | 301+    | ₹5.00         |
 
-100 × 2  = ₹200
-200 × 3  = ₹600
-50  × 5  = ₹250
-Total = ₹1050
 
-
-ID    Name                 Address                  Phone
------------------------------------------------------------------
-1001  John Smith           123 Main Street          +1-234-567-8900
-1002  Jane Doe             456 Oak Avenue           +1-234-567-8901
-
-
-CID   Customer     Month  Year   Prev   Curr   Units   Amount
---------------------------------------------------------------
-1001  John Smith   12     2023   1500   1750   250     Rs.650.00
-
-
-Copyright (c) 2024 [Your Name]
+Copyright (c) 2025 Rupesh Chaudhary.
 Educational use only. All rights reserved.
